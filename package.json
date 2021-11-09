@@ -1,0 +1,10 @@
+{
+  "name": "get-douyin-rtmp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Cloud370/get-douyin-rtmp.git",
+  "license": "MIT",
+  "scripts": {
+    "build": " nexe index.js -t x64-14.15.3"
+  }
+}
