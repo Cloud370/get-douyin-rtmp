@@ -6,5 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": " nexe index.js -t x64-14.15.3"
+  },
+  "dependencies": {
+    "anyproxy": "^4.1.3"
   }
 }
