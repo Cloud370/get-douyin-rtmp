@@ -53,7 +53,7 @@ installCA().then(() => {
   const rule = {
     summary: "检测抖音主播伴侣开播",
     async beforeSendResponse(req, res) {
-      if (req.url.includes("https://webcast.amemv.com/webcast/room/create/")) {
+      if (req.url.includes("/webcast/room/create/")) {
         const body = JSON.parse(res.response.body);
         const baseUrl = body.data.stream_url.rtmp_push_url;
         const rtmpSecret = baseUrl.split("/").pop();
